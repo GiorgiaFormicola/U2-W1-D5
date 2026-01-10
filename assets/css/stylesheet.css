@@ -226,6 +226,72 @@ h2 {
   display: none;
 }
 
+/* MAIN SECTION */
+.main-section {
+  padding-top: 4em;
+  display: flex;
+  gap: 6em;
+}
+
+/* ARTICLES SECTION */
+.articles-section {
+  display: flex;
+  flex-direction: column;
+  gap: 3em;
+}
+
+.articles-section article {
+  display: flex;
+  width: 48em;
+  height: 10em;
+  align-items: center;
+  gap: 1.5em;
+}
+
+.articles-section article > img {
+  height: 100%;
+}
+
+.articles-section article > div {
+  flex-grow: 1;
+  position: relative;
+}
+
+.articles-section h4 {
+  font-size: 1.4em;
+  margin-top: 0.5em;
+  margin-bottom: 0em;
+  font-weight: 800;
+}
+
+.articles-section h5 {
+  color: #717171;
+  margin-block: 0.4em;
+  line-height: 1.2em;
+}
+
+.articles-section .details {
+  position: relative;
+}
+.details span {
+  background-color: #f2f3f3;
+  padding: 0.5em;
+  margin-left: 0.5em;
+  border-radius: 1em;
+}
+
+article .bookmark {
+  width: 2em;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+.articles-section article:nth-of-type(4) .details img:first-of-type,
+.articles-section article:nth-of-type(7) .details img:first-of-type {
+  display: none;
+}
+
 /* ASIDE */
 
 /* CONTACTS SECTION */
