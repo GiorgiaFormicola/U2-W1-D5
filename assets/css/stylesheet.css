@@ -34,7 +34,7 @@ body {
   font-style: normal;
   font-variation-settings: "wdth" 100;
   font-weight: 400;
-  font-size: 1vw;
+  font-size: 1.5vh;
   color: #191919;
 }
 
@@ -65,7 +65,7 @@ a {
 
 header {
   background-color: #ffc017;
-  border-bottom: 1px solid #a1a1a1;
+  border-bottom: 1px solid #191919;
   display: flex;
   justify-content: space-between;
   padding-block: 1.2em;
@@ -93,6 +93,41 @@ header .button {
 .hero-section {
   background-color: #ffc017;
   border-bottom: 1px solid #a1a1a1;
+  padding-right: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hero-section-text {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5em;
+  align-items: flex-start;
+}
+
+h1 {
+  font-family: "Spectral", serif;
+  font-style: normal;
+  font-size: 7em;
+  font-weight: 400;
+  letter-spacing: -0.05em;
+}
+
+h2 {
+  font-size: 1.6em;
+}
+
+.hero-section .button {
+  padding-inline: 2.6em;
+  padding-block: 0.6em;
+  border-radius: 2em;
+  margin-top: 1em;
+  font-size: 1.2em;
+}
+
+.artwork {
+  width: 40%;
 }
 
 /* TRENDING SECTION */
