@@ -3,7 +3,6 @@
   body {
     font-size: 2vw;
   }
-  /* HEADER */
 
   header,
   .hero-section,
@@ -86,5 +85,112 @@
 
   .discover-section a {
     padding-inline: 1.2em;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  /* GENERAL */
+  body {
+    font-size: 2.5vw;
+  }
+
+  header,
+  .hero-section,
+  .trending-section,
+  .main-section {
+    padding-inline: 1.5em;
+  }
+
+  /* HEADER */
+
+  header img {
+    width: 11em;
+  }
+
+  header ul {
+    gap: 1.8em;
+  }
+
+  header li:nth-of-type(1),
+  header li:nth-of-type(2),
+  header li:nth-of-type(3) {
+    display: none;
+  }
+
+  header .button {
+    padding-inline: 1.2em;
+    border-radius: 2em;
+  }
+
+  /* MAIN */
+  h3 {
+    font-size: 0.9em;
+  }
+
+  .author,
+  .details {
+    font-size: 0.9em;
+  }
+
+  /* HERO SECTION */
+  .hero-section {
+    padding-top: 1.5em;
+  }
+  h1 {
+    font-size: 5.8em;
+  }
+
+  .hero-section .button {
+    font-size: 1.4em;
+  }
+
+  .artwork {
+    display: none;
+  }
+
+  /* TRENDING SECTION */
+  .trending-section {
+    padding-top: 3em;
+  }
+
+  .title img {
+    width: 2em;
+  }
+
+  .articles-ranked {
+    gap: 1.8em;
+  }
+
+  .articles-ranked article {
+    width: 100%;
+  }
+
+  .articles-ranked h4 {
+    font-weight: 900;
+  }
+
+  /* MAIN SECTION */
+
+  .main-section {
+    gap: 1.2em;
+  }
+
+  /* ARTICLES SECTION */
+  .articles-section article:nth-of-type(4) .details img:first-of-type,
+  .articles-section article:nth-of-type(7) .details img:first-of-type {
+    display: unset;
+  }
+  /* DISCOVER SECTION */
+  .discover-section a {
+    padding-inline: 1.3em;
+  }
+
+  /* CONTACTS SECTION */
+  .contacts-section {
+    padding-top: 1.8em;
+  }
+
+  .contacts-section a {
+    font-size: 1em;
   }
 }
