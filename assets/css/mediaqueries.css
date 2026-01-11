@@ -1,0 +1,90 @@
+@media screen and (max-width: 1199px) {
+  /* GENERAL */
+  body {
+    font-size: 2vw;
+  }
+  /* HEADER */
+
+  header,
+  .hero-section,
+  .trending-section,
+  .main-section {
+    padding-inline: 3.5em;
+  }
+
+  /* MAIN */
+
+  .author,
+  .details {
+    font-size: 0.8em;
+  }
+
+  /* HERO SECTION */
+  .hero-section {
+    padding-right: 0;
+    border-bottom: 1px solid #191919;
+  }
+
+  .hero-section-text {
+    padding-block: 5.5em;
+  }
+
+  h1 {
+    font-size: 5em;
+    font-weight: 500;
+  }
+
+  .artwork svg {
+    width: 185%;
+    overflow: hidden;
+  }
+  /* TRENDING SECTION */
+  .title img {
+    width: 1.8em;
+    margin-left: 0.3em;
+  }
+
+  .articles-ranked article {
+    width: 20em;
+  }
+  .articles-ranked h4 {
+    font-weight: 800;
+  }
+
+  .articles-ranked .details {
+    justify-content: space-between;
+  }
+
+  .articles-ranked article:nth-of-type(4) .details img,
+  .articles-ranked article:nth-of-type(5) .details img,
+  .articles-ranked article:nth-of-type(6) .details img {
+    display: none;
+  }
+
+  /* MAIN SECTION */
+  .main-section {
+    flex-direction: column-reverse;
+    overflow: hidden;
+    height: 100%;
+    gap: 1em;
+    padding-bottom: 4em;
+    margin-bottom: 0;
+  }
+
+  /* ARTICLES SECTION */
+
+  .articles-section article {
+    width: 100%;
+    height: 9em;
+  }
+  /* ASIDE */
+
+  /* DISCOVER SECTION */
+  .discover-section {
+    order: -1;
+  }
+
+  .discover-section a {
+    padding-inline: 1.2em;
+  }
+}
