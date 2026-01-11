@@ -11,7 +11,14 @@
     padding-inline: 3.5em;
   }
 
+  /* HEADER */
+  header {
+    height: 4.5em;
+  }
   /* MAIN */
+  main {
+    margin-top: 4.5em;
+  }
 
   .author,
   .details {
@@ -78,6 +85,9 @@
   }
   /* ASIDE */
 
+  aside {
+    position: static;
+  }
   /* DISCOVER SECTION */
   .discover-section {
     order: -1;
@@ -133,9 +143,7 @@
   }
 
   /* HERO SECTION */
-  .hero-section {
-    padding-top: 1.5em;
-  }
+
   h1 {
     font-size: 5.8em;
   }
