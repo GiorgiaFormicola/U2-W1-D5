@@ -34,7 +34,6 @@ body {
   font-style: normal;
   font-variation-settings: "wdth" 100;
   font-weight: 400;
-  /* font-size: 1.5vh; */
   font-size: 1vw;
   color: #191919;
 }
@@ -44,7 +43,8 @@ ul {
 }
 
 header,
-section {
+.hero-section,
+.trending-section {
   padding-inline: 10em;
 }
 
@@ -70,6 +70,9 @@ header {
   display: flex;
   justify-content: space-between;
   padding-block: 1.2em;
+  position: sticky;
+  top: 0;
+  z-index: 1;
 }
 
 header img {
@@ -233,9 +236,14 @@ h2 {
 
 /* MAIN SECTION */
 .main-section {
-  padding-top: 4em;
+  margin-top: 4em;
+  margin-bottom: 2.5em;
   display: flex;
   gap: 6em;
+  height: 82vh;
+  overflow: auto;
+  padding-inline: 10em;
+  scrollbar-width: none;
 }
 
 /* ARTICLES SECTION */
@@ -298,6 +306,10 @@ article .bookmark {
 }
 
 /* ASIDE */
+aside {
+  position: sticky;
+  top: 0em;
+}
 
 aside a {
   font-size: 0.9em;
