@@ -251,9 +251,9 @@ h2 {
   margin-bottom: 2.5em;
   display: flex;
   gap: 6em;
-  height: 53em;
-  overflow: auto;
+  height: 46em;
   scrollbar-width: none;
+  overflow: auto;
 }
 
 /* ARTICLES SECTION */
